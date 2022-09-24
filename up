@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+cd proxy
+docker compose up -d
+cd ..
+docker compose up -d
